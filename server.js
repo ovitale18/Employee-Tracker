@@ -8,8 +8,8 @@ const app = express();
 //CONNECTION TO DATABASE
 const connection = mysql.createConnection({
     host: 'localhost',
-    port: 3306
+    port: 3306,
     user: 'root',
-    password: 'Deluxe666'
+    password: 'Deluxe666',
     database: 'employee_tracker_db'
 });
